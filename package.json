@@ -1,0 +1,44 @@
+{
+  "name": "angular-peer",
+  "version": "1.0.0",
+  "description": "Peer.js wrapper for Angular.js",
+  "keywords": [],
+  "author": "gdi2290 <github@gdi2290.com>",
+  "repository": "git://github.com/gdi2290/angular-peer.git",
+  "main": "index",
+  "homepage": "https://github.com/gdi2290/angular-peer",
+  "contributors": [{
+    "name": "gdi2290"
+  }],
+  "bugs": {
+    "url": "https://github.com/gdi2290/angular-peer/issues",
+    "email": "github@gdi2290.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~2.1.0"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://github.com/gdi2290/angular-peer/raw/master/LICENSE"
+  }],
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "testling": {
+    "files": "test/index.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/16..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  }
+}
