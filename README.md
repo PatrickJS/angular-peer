@@ -2,10 +2,7 @@
 Peer.js wrapper for Angular.js
 ## Example
 ```js
-var angularPeer = require("angular-peer")
-
-// TODO. Show example
-
+var angularPeer = require("angular-peer");
 ```
 
 ## Installation
